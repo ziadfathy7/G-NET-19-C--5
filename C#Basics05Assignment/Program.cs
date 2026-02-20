@@ -50,6 +50,49 @@ namespace C_Basics05Assignment
             #endregion
 
 
+            //#region Question2 Part 01
+            //Console.WriteLine("Enter Array Size");
+
+            //int ArraySize = Int32.Parse(Console.ReadLine());
+            //int[] Array = new int[ArraySize];
+            //for (int i = 0; i < Array.Length; i ++) {
+            //    Console.WriteLine("Enter Element");
+            //    int arrayElements = Int32.Parse(Console.ReadLine());
+            //    Array[i] = arrayElements;
+            //}
+
+            //double sum=0;
+            //double avg=0;
+            //int max = Array[0];
+            //int min = Array[0];
+
+            //for (int i = 0; i < Array.Length; i++)
+            //{
+            //    sum += Array[i];
+            //    if (Array[i] > max)
+            //    {
+            //        max = Array[i];
+            //    }
+            //    if (min > Array[i])
+            //    {
+            //        min = Array[i];
+            //    }
+            //}
+
+            //avg = sum / Array.Length;
+
+            //Console.WriteLine($"Sum = {sum}");
+            //Console.WriteLine($"Average = {avg}");
+            //Console.WriteLine($"Max = {max}");
+            //Console.WriteLine($"Min = {min}");
+
+            //Console.WriteLine("=================================");
+            //for (int i = Array.Length -1 ; i >= 0; i--)
+            //{
+            //    Console.WriteLine(Array[i]);
+            //}
+            #endregion
+
         }
     }
 }
