@@ -1,4 +1,5 @@
 ﻿using C_Basics05Assignment.Enums;
+using System.Security.Cryptography.X509Certificates;
 
 namespace C_Basics05Assignment
 {
@@ -127,6 +128,77 @@ namespace C_Basics05Assignment
 
             //double classAverage = totalSum / 12;
             //Console.WriteLine($"The whole class average is:{classAverage}");
+
+            #endregion
+
+
+            #region Part 3 Question 01
+
+            //static double sum(double x, double y)
+            //{
+            //    double result = x + y;
+            //    return result;
+            //}
+
+            ////double resultsum = sum(5, 2);
+            ////Console.WriteLine(resultsum);
+
+            //static double subtract(double x, double y)
+            //{ 
+            //    double result = x - y;
+            //    return result;
+            //}
+
+            ////double resultsub = subtract(5, 2);
+            ////Console.WriteLine(resultsub);
+
+            //static double multiply(double x, double y)
+            //{ 
+            //    double result = x * y;
+            //    return result;
+            //}
+
+            ////double multiplyres = multiply(5, 2);
+            ////Console.WriteLine(multiplyres);
+
+            //static double divide(double x, double y)
+            //{ 
+            //    if(y == 0)
+            //    {
+            //        Console.WriteLine("cannot divide by 0");
+            //    }
+            //     return  x / y;
+            //}
+
+
+            //Console.WriteLine("Please enter the first number");
+            //double firstNumber = double.Parse(Console.ReadLine());
+            //Console.WriteLine("Please enter the second number");
+            //double secondNumber = double.Parse(Console.ReadLine());
+
+            //Console.WriteLine("Pick an operation ( (+) _ (-) _ (*) _ (/) )");
+            //string Operation = Console.ReadLine();
+            //double finalResult = 0;
+
+            //switch (Operation)
+            //{
+            //    case "+":
+            //        finalResult = sum(firstNumber,secondNumber);
+            //        break;
+            //    case "-":
+            //        finalResult = subtract(firstNumber,secondNumber);
+            //        break;
+            //    case "*":
+            //        finalResult = multiply(firstNumber,secondNumber);
+            //        break;
+            //    case "/":
+            //        finalResult = divide(firstNumber,secondNumber);
+            //        break;
+            //    default:
+            //        Console.WriteLine("Wrong Enter again");
+            //        return;
+            //}
+            //Console.WriteLine($"Result: {firstNumber} {Operation} {secondNumber} = {finalResult}");
 
             #endregion
         }
