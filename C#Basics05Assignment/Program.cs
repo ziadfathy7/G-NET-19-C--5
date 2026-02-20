@@ -50,7 +50,7 @@ namespace C_Basics05Assignment
             #endregion
 
 
-            //#region Question2 Part 01
+            #region Question2 Part 01
             //Console.WriteLine("Enter Array Size");
 
             //int ArraySize = Int32.Parse(Console.ReadLine());
@@ -93,6 +93,42 @@ namespace C_Basics05Assignment
             //}
             #endregion
 
+
+            #region Question 2 Part 02
+
+            //double[,] Grades = new double[3,4];
+            //double totalSum = 0;
+
+            //for (int student = 0; student < 3; student++)
+            //{
+            //    Console.WriteLine($"Student Number{student}");
+
+            //    for (int subject = 0; subject < 4; subject++)
+            //    {
+            //        Console.Write($"Enter grade for Subject {subject}:");
+            //        double grade = double.Parse(Console.ReadLine());
+            //        Grades[student, subject] = grade;
+            //        totalSum += grade;
+            //    }
+            //}
+
+            //for (int student = 0; student < 3; student++)
+            //{
+            //    double studentSum = 0;
+
+            //    for (int subject = 0; subject < 4; subject++)
+            //    {
+            //        studentSum += Grades[student, subject];
+            //    }
+
+            //    double studentAverage = studentSum / 4;
+            //    Console.WriteLine($"Student {student + 1} Average: {studentAverage}");
+            //}
+
+            //double classAverage = totalSum / 12;
+            //Console.WriteLine($"The whole class average is:{classAverage}");
+
+            #endregion
         }
     }
 }
