@@ -1,4 +1,5 @@
 ﻿using C_Basics05Assignment.Enums;
+using System.Formats.Asn1;
 using System.Security.Cryptography.X509Certificates;
 
 namespace C_Basics05Assignment
@@ -201,6 +202,26 @@ namespace C_Basics05Assignment
             //Console.WriteLine($"Result: {firstNumber} {Operation} {secondNumber} = {finalResult}");
 
             #endregion
+
+
+            #region Part 3 Question 02
+
+            //double radius = 20;
+
+            //double areaResult;
+            //double circumferenceResult;
+
+            //CalculateCircle(10, out areaResult, out circumferenceResult);
+
+            //Console.WriteLine($"Area = {areaResult}");
+            //Console.WriteLine($"Circmference = {circumferenceResult}");
+            #endregion
         }
+
+        //public static void CalculateCircle(double radius, out double area, out double circumference)
+        //{
+        //    area = 3.14 * radius * radius;
+        //    circumference = 2 * 3.14 * radius;
+        //}
     }
 }
